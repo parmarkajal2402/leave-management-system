@@ -1,27 +1,59 @@
 body{
   margin:0;
-  font-family:Arial,sans-serif;
+  padding:0;
+  font-family:Arial;
   background:#f4f6f9;
 }
 
-/* LOGIN */
-
+/* LOGIN BOX */
 #loginBox{
   width:400px;
-  margin:80px auto;
-  padding:35px;
+  margin:100px auto;
   background:white;
+  padding:40px;
   border-radius:15px;
-  box-shadow:0 5px 15px rgba(0,0,0,.1);
-  text-align:center;
+  box-shadow:0 5px 15px rgba(0,0,0,0.15);
 }
 
 #loginBox h1{
-  font-size:40px;
+  text-align:center;
+  margin-bottom:30px;
 }
 
-/* MAIN */
+/* FORM GROUP */
+.form-group{
+  margin-bottom:20px;
+}
 
+.form-group label{
+  display:block;
+  margin-bottom:8px;
+  font-weight:bold;
+}
+
+.form-group input{
+  width:100%;
+  padding:12px;
+  border:1px solid #ccc;
+  border-radius:8px;
+}
+
+/* BUTTON */
+button{
+  width:100%;
+  padding:12px;
+  background:green;
+  color:white;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+button:hover{
+  background:darkgreen;
+}
+
+/* MAIN APP */
 #app{
   width:85%;
   margin:40px auto;
@@ -29,61 +61,42 @@ body{
   gap:20px;
 }
 
-.form-box,
-.record-box{
+/* CARDS */
+.card{
   flex:1;
+  background:white;
   padding:25px;
-  background:#fff;
   border-radius:15px;
-  box-shadow:0 5px 15px rgba(0,0,0,.1);
+  box-shadow:0 5px 15px rgba(0,0,0,0.1);
 }
 
 /* INPUTS */
-
-input,
-select,
-textarea{
+input, select, textarea{
   width:100%;
   padding:12px;
   margin:10px 0;
   border:1px solid #ccc;
   border-radius:8px;
-  box-sizing:border-box;
-}
-
-textarea{
-  height:80px;
-}
-
-/* BUTTONS */
-
-button{
-  border:none;
-  padding:10px;
-  color:white;
-  border-radius:6px;
-  cursor:pointer;
-  background: green;
 }
 
 /* TABLE */
-
 table{
   width:100%;
   border-collapse:collapse;
 }
 
-th,
-td{
+th, td{
   border:1px solid #ddd;
-  padding:12px;
+  padding:10px;
   text-align:center;
 }
 
 th{
   background:green;
-  color:#fff;
+  color:white;
 }
+
+
 
 /* ACTION BUTTONS */
 
