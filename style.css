@@ -1,0 +1,106 @@
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  background:#f4f6f9;
+}
+
+/* LOGIN */
+
+#loginBox{
+  width:400px;
+  margin:80px auto;
+  padding:35px;
+  background:white;
+  border-radius:15px;
+  box-shadow:0 5px 15px rgba(0,0,0,.1);
+  text-align:center;
+}
+
+#loginBox h1{
+  font-size:40px;
+}
+
+/* MAIN */
+
+#app{
+  width:85%;
+  margin:40px auto;
+  display:flex;
+  gap:20px;
+}
+
+.form-box,
+.record-box{
+  flex:1;
+  padding:25px;
+  background:#fff;
+  border-radius:15px;
+  box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+/* INPUTS */
+
+input,
+select,
+textarea{
+  width:100%;
+  padding:12px;
+  margin:10px 0;
+  border:1px solid #ccc;
+  border-radius:8px;
+  box-sizing:border-box;
+}
+
+textarea{
+  height:80px;
+}
+
+/* BUTTONS */
+
+button{
+  border:none;
+  padding:10px;
+  color:white;
+  border-radius:6px;
+  cursor:pointer;
+  background: green;
+}
+
+/* TABLE */
+
+table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+th,
+td{
+  border:1px solid #ddd;
+  padding:12px;
+  text-align:center;
+}
+
+th{
+  background:green;
+  color:#fff;
+}
+
+/* ACTION BUTTONS */
+
+.action-box{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+
+.approve-btn{
+  background:green;
+}
+
+.reject-btn{
+  background:orange;
+}
+
+.delete-btn{
+  background:red;
+}
